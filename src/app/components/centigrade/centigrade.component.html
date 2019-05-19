@@ -3,7 +3,8 @@
   <fieldset ng-form="centigrade">
     <legend>Enter a Temperature in Farenheit:</legend>
     <input type="number" name="post_farenheit" id="get_centigrade_from_input" placeholder="32"><br />
-    <button type="submit" class="btn btn-primary" >Submit</button>
+    <!-- using ngStyle inline until css and style classes are built and style logic implemented -->
+    <button type="submit" class="btn btn-primary" [ngStyle]="{'background-color':'grey', 'border-color':'black'}" >Submit</button>
   </fieldset>
 </form>
 

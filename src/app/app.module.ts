@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CentigradeComponent } from './components/centigrade/centigrade.component';
+import { FahrenheitComponent } from './components/fahrenheit/fahrenheit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CentigradeComponent
+    CentigradeComponent,
+    FahrenheitComponent
   ],
   imports: [
     BrowserModule,
